@@ -1,0 +1,21 @@
+#weather{
+	display: none;
+	text-align: center;
+	
+}
+	button{
+		background-color:purple;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+	} 
+
+body{
+	background-image: url("http://weathernorthofthebay.com/wp-content/uploads/2015/08/montgomery-tx.jpg");
+	background-repeat: no-repeat;
+	background-size: 2000px 900px;
+}
+#page2 #weather2{
+	display: none;
+	text-align: center;
+}
