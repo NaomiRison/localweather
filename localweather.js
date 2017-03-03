@@ -11,13 +11,14 @@ function getWeather(city){
 
 	$.getJSON("http://api.openweathermap.org/data/2.5/weather",
 	{
-	//turned pieces in url city and appi into
+	//turned pieces in url city and api into
 	//objects.. then you could delete the whole query string
 	//creating object
 	q:city,  // its a variable so no pranthese
-	appid:"84bee75ccc48d73cd18de3a8c2d85c8e",
+	appid:"88f15123640c53d6d0a2f40b8bb07e0e",
 	// "my appid    88f15123640c53d6d0a2f40b8bb07e0e",
-	//appid account made in weathermapp,
+	//appid account made in weathermapp professor:
+	//84bee75ccc48d73cd18de3a8c2d85c8e,
 	units: "imperial",
 	// adding units: "imperial", converts kelvin to F degrees
     /*
