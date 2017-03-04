@@ -9,7 +9,7 @@ $("#weather-btn").on("click",function(){
 function getWeather(city){
 
 
-	$.getJSON("http://api.openweathermap.org/data/2.5/weather",
+	$.getJSON("https://api.openweathermap.org/data/2.5/weather",
 	{
 	//turned pieces in url city and api into
 	//objects.. then you could delete the whole query string
